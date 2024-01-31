@@ -1,0 +1,30 @@
+[
+    {
+        "endpoint": "Seasons",
+        "method":"get",
+        "response": {
+            "get": "seasons/",
+            "parameters": [],
+            "errors": [],
+            "results": 9,
+            "response": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023
+            ]
+        }
+    },
+    {
+        "endpoint":"health",
+        "method":"get",
+        "response":{
+            "response":"api-request-mocker up"
+        }
+    }
+]
